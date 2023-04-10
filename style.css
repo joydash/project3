@@ -1,0 +1,464 @@
+/* header part start */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+
+}
+header div{
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+header .logo {
+  padding: 10px;
+  margin-left: 100px;
+  margin-top: 15px;
+}
+header .logo a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 160px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+    
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    
+
+}
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+
+
+/* header part closer */
+
+/* section1 part start */
+
+.section1{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 665px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.section1 div{
+    width: 40%;
+}
+.section1half1{
+    padding-left: 150px;
+
+}
+.section1half2{
+    padding-right: 70px;
+}
+.section1 img{
+    max-width: 90%;
+    height: auto;
+}
+
+.section1half1 h3{
+    font-style: normal;
+}
+.section1half1 h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section1half1 p{
+    color: rgba(78, 78, 78, 0.7);
+}
+.section1half1 input{
+    padding: 8px 20px;
+    background-color:#8393ff;
+    outline: none;
+    color: white;
+    border: 1px solid#8393ff;
+    font-size: 15px;
+
+}
+.section1half1 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.15s;
+}
+
+/* section1 closed */
+
+/* section2 start */
+
+.section2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.section2 div{
+    width: 40%;
+}
+.section2 img{
+    max-width: 70%;
+    height: auto;
+}
+.section2half2 h3{
+    font-weight: normal;
+    color: rgba(0, 0, , 0.7);
+    font-size: 15px;
+}
+.section2half2 h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.section2half2 p{
+    font-size: 16px;
+    color:rgba(0, 0, 0, 0.75);
+
+}
+.section2half2 input{
+    font-size: 15px;
+    padding: 15px 22px;
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    border: none;
+
+}
+.section2half2 input:hover{
+    box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.15s;
+    
+}
+
+/* section 2 end */
+
+/* section 3 start */
+
+.section3{
+    width: 100%;
+    height: 650px;
+    background-color: ;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.firsttext h1{
+    font-size: 40px;
+    line-height: 10px;
+
+}
+.firsttext p{
+    width: 570px;
+    color: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+
+}
+.service{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 45px;
+}
+.service1, .service2{
+    width: 100%;
+    overflow: hidden;
+}
+.service2{
+    margin-top: 30px;
+}
+.service1 div, .service2 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0 auto;
+}
+.service i{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.service h2{
+    color: rgba(0, 0, 0, 0.9);
+}
+.service p{
+    color: rgba(0, 0, 0, 0.7);
+}
+ .service1 div{
+    border: #7f97ff dotted;
+ 
+}
+.service2 div{
+    border: #7f97ff dotted;
+ 
+} 
+.service1 div:hover{
+    background-color: #7f97ff;
+    color: white;
+   transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.service2 div:hover{
+    background-color: #7f97ff;
+    color: white;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+}
+.service1 div:hover i{
+    color: white;
+}
+.service1 div:hover h2{
+    color: white;
+}
+.service2 div:hover i{
+    color: white;
+}
+.service2 div:hover h2{
+    color: white;
+}
+.service1 div:hover p{
+    color: white;
+}
+.service2 div:hover p{
+    color: white;
+}
+/* section 3 end] */
+
+/* section 4 sstart */
+
+.section4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+}
+.section4 h1,p{
+    text-align: center;
+    color: white;
+}
+.section4 h1{
+    font-size: 45px;
+    line-height: 10px;
+}
+.section4 div{
+    float: left;
+    width: 20%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+
+/* section4 end */
+
+/* section5 start */
+.section5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.section5 .text3{
+    text-align: center;
+}
+.section5 .text3 h1{
+    font-size: 40px;
+    color: rgba(0, 0, , 0.9);
+}
+.section5 .text3 p{
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.section5 .category h3{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: -10px;
+    color: rgba(0, 0, , 0.7);
+    margin-left: 200px;
+    font-size: 15px;
+    
+}
+
+.section5 .imgg{
+    float: left;
+   justify-content: center;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 60px;
+    height: auto;
+   
+
+}
+
+.section5 .imgg h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.section5 .imgg p{
+    color: black;
+}
+section5 .imgg p{
+    color: rgba(0, 0, , 0.7);
+    line-height: 20px;
+}
+.section5 .imgg:hover{
+background-color: #8293ff;
+opacity: 90%;
+box-shadow: 5px 10px 30px rgba(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.15s;
+    
+}
+.section5 .imgg:hover h1{
+    color: white;
+}
+.section5 .imgg:hover p{
+    color: white;
+}
+
+/* end of section 5 */
+
+/* start section 6 */
+
+.section6{
+    width: 100%;
+    height: 700PX;
+    box-sizing: border-box;
+    margin-top: 1100px;
+  
+}
+.section6 p{
+    color: black;
+}
+.section6 .plane{
+    text-align: center;   
+}
+.section6 .plane h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.section6 .plane p{
+    color: rgba(0, 0, , 0.7);
+}
+.section6 .card{
+    width: 75%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.section6 .card1{
+    width: 300px;
+    height: 620px;
+    background-color: rgb(249,249, 255);
+    text-align: center;
+    border: 1px solid rgba(0, 0, , 0.3);
+}
+.section6 .card1 h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+.section6 .card1 input{
+    outline: none;
+    background-color: #8293ff;
+    color: white;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.section6 .card1:hover{
+    background-color: #8393ff;
+    color: white;
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgba(130, 147, 255, .5);
+    box-shadow: 0 8px 12px 0 rgba(0, 0, , 0.5);
+}
+.section6 .card1:hover input{
+    color: rgba(0, 0, 0, 0.9);
+    background-color: white;
+}
+
+/* SECTION 6 END */
+
+footer{
+    background-color: rgb(4, 9, 30);
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    color: white;
+    margin-top: 200px;
+
+}
+
+footer .foot{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foot1 p{
+    color: rgba(255, 255, 255, 0.5);
+  
+}
+footer .foot .foot1 input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foot1 button{
+    font-size: 18px;
+    color: white;
+    background-color: #8293ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 15px;
+}
+footer .foot .foot1 i{
+    font-size: 20px;
+    cursor: pointer;
+    padding: 2px 5px;
+}
+footer .foot .foot1 i:hover{
+    color: #8293ff;
+}
